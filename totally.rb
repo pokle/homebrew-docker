@@ -2,8 +2,8 @@ require "formula"
 
 class Totally < Formula
   homepage "https://github.com/pokle/totally"
-  url "https://github.com/pokle/totally/archive/0.2.0.tar.gz"
-  sha1 "4e80309b04ea05f143988db1758a0f212d03e549"
+  url "https://github.com/pokle/totally/archive/0.3.0.tar.gz"
+  sha1 "6700b4a8a7a18af963c4f47b52a626718cdd555a"
   head "https://github.com/pokle/totally.git"
 
   def install
