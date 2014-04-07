@@ -7,7 +7,7 @@ class Totally < Formula
   head "https://github.com/pokle/totally.git"
 
   def install
-    system './scrips/package'
+    system './scripts/package'
     bin.install "bin/totally"
   end
 
