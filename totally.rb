@@ -7,10 +7,11 @@ class Totally < Formula
   head "https://github.com/pokle/totally.git"
 
   def install
-    bin.install "totally"
+    system './scrips/package'
+    bin.install "bin/totally"
   end
 
   test do
-    `#{bin}/totally 2>&1` =~ /^usage:/
+    `./scripts/test`
   end
 end
