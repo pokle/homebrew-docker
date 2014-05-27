@@ -8,7 +8,7 @@ class Totally < Formula
 
   def install
     system './scripts/package'
-    system 'echo "function cmd_version(){ echo 0.6.0; }" >> bin/totally'
+    system 'sed -ie "s/^.*cmd_version.*$/function cmd_version(){ echo 0.6.0; }/" bin/totally'
     bin.install "bin/totally"
   end
 
