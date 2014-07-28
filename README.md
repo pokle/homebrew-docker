@@ -1,12 +1,17 @@
 homebrew-docker
 ===============
 
-A collection of tools that will help with Docker.
+A collection of tools I maintain
 
 Get started with 
 
 	brew tap pokle/docker
 
-And then, for totally (https://github.com/pokle/totally)
+And then, brew install one of these:
 
-	brew install totally
+brew                                        | description
+--------------------------------------------|------------
+[totally](https://github.com/pokle/totally) | Remotely build and interact with your docker containers
+[circ](https://github.com/pokle/circ)       | Run single file Clojure programs with ease
+
+
