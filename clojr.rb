@@ -7,7 +7,7 @@ class Clojr < Formula
   depends_on "rlwrap"
 
   def install
-    bin.install "clojr"
+    bin.install "src/clojr"
   end
 
   test do
